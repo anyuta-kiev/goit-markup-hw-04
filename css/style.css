@@ -174,7 +174,7 @@ p {
 }
 
 .advantages-title {
-  width: : calc((100% - 30px * 3) / 4);
+  width: calc((100% - 30px * 3) / 4);
   margin: 0 30px 0 0;
 }
 
@@ -425,3 +425,4 @@ footer .container-hf{
 
 .filter-element:nth-child(3n) {
   margin-right: 0;
+}
