@@ -116,31 +116,23 @@ p {
 
 .overlay {
   max-width: 1600px;
-  max-height: 600px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid black;
-  background-image: linear-gradient(
-    to right,
-    rgba(47, 47, 58, 0.8),
-    rgba(0, 2, 0, 0.2)
-  ),
+  background-color: var(--main-color);
+  background-image: linear-gradient(to right, rgba(47, 47, 58, 0.8),rgba(47, 47, 58, 0.8)),
   url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .hero {
-  background: rgba(47, 48, 58, 0.8);
   text-align: center;
-  /* padding-top: 200px;
-  padding-bottom: 200px; */
 }
 
 .hero-title {
+  padding-top: 200px;
   margin: 0 0 30px 0;
   font-weight: 900;
   font-size: 44px;
@@ -184,6 +176,38 @@ p {
 .advantages-title {
   width: : calc((100% - 30px * 3) / 4);
   margin: 0 30px 0 0;
+}
+
+.advantages-title::before {
+display: block;
+content: " ";
+height: 120px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+background-color: var(--bg-color);
+margin-bottom: 30px;
+border-radius: 4px;
+}
+
+.icon-antenna::before{
+  background-image: url(/images/antenna.svg);
+  background-size: 65px;
+}
+
+.icon-clock::before{
+  background-image: url(/images/clock.svg);
+  background-size: 67px;
+}
+
+.icon-diagram::before{
+  background-image: url(/images/diagram.svg);
+  background-size: 70px;
+}
+
+.icon-astronaut::before{
+  background-image: url(/images/astronaut.svg);
+  background-size: 56px;
 }
 
 .advantages-item {
