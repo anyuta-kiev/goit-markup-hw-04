@@ -5,6 +5,7 @@
   --white: #ffffff;
   --bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
+  --background: #AFB1B8;
 }
 
 body { 
@@ -283,6 +284,17 @@ p {
   margin-right: 0;
 }
 
+/* .networks-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  color: var(--background);
+  border-radius: 50%;
+} */
+
 .clients-list {
   display: flex;
 }
@@ -294,6 +306,58 @@ p {
 
 .clients-name:nth-child(6n) {
   margin-right: 0;
+}
+
+.clients-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 170px;
+  color: var(--background);
+  border: 1px solid var(--background);
+  border-radius: 4px;
+}
+
+.clients-icon:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.clients1 {
+  width: 44px;
+  height: 49px;
+  fill: currentColor;
+}
+
+.clients2 {
+  width: 40px;
+  height: 52px;
+  fill: currentColor;
+}
+
+.clients3 {
+  width: 41px;
+  height: 42.6px;
+  fill: currentColor;
+}
+
+.clients4 {
+  width: 79.6px;
+  height: 42px;
+  fill: currentColor;
+}
+
+.clients5 {
+  width: 59px;
+  height: 47px;
+  fill: currentColor;
+}
+
+.clients6{
+  width: 88.5px;
+  height: 45.4px;
+  fill: currentColor;
 }
 
 footer {
