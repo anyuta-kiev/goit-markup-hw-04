@@ -26,10 +26,19 @@
                 </ul>
             </nav>
             <ul class="list contacts-list">
-                <li class="contacts-item"><a href="mailto:info@devstudio.com"
-                        class="contacts-link">info@devstudio.com</a>
+                <li class="contacts-item">
+                    <a href="mailto:info@devstudio.com" class="contacts-link">
+                        <svg class="envelope">
+                            <use href="./images/sprite.svg#envelope"></use>
+                        </svg>info@devstudio.com</a>
                 </li>
-                <li class="contacts-item"><a href="tel:+3809611111" class="contacts-link">+38 096 111 11 11</a></li>
+                <li class="contacts-item">
+                    <a href="tel:+3809611111" class="contacts-link">
+                        <svg class="smartphone">
+                            <use href="./images/sprite.svg#smartphone"></use>
+                        </svg>+38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -143,7 +152,7 @@
 
     <footer>
         <section class="container-hf footer flexbox">
-            <div class="footer-item">
+            <div class="footer-item item">
                 <a href="./" class="logo" lang="en"><span class="accent-blue">Web</span><span
                         class="accent-white">Studio</span></a>
                 <address>
@@ -157,41 +166,52 @@
             </div>
 
             <div class="footer-item">
-                <b class="examples-title">присоединяйтесь</b>
+                <b class="examples-title footer">присоединяйтесь</b>
                 <ul class="list fsocial-networks">
                     <li class="fnetworks-title">
                         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
-                            aria-label="Ссылка на Instagram">
-                            <img src="./images/instagram.svg" alt="Ссылка Instagram" />
+                            aria-label="Ссылка на Instagram" class="link fnetworks-icon">
+                            <svg class="icon-instagram">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="fnetworks-title">
                         <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"
-                            aria-label="Ссылка на Twitter" class="link">
-                            <img src="./images/twitter.svg" alt="Ссылка Twitter" />
+                            aria-label="Ссылка на Twitter" class="link fnetworks-icon">
+                            <svg class="icon-twitter">
+                                <use href="./images/sprite.svg#twitter"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="fnetworks-title">
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
-                            aria-label="Ссылка на Facebook" class="link">
-                            <img src="./images/facebook.svg" alt="Ссылка Facebook" />
+                            aria-label="Ссылка на Facebook" class="link fnetworks-icon">
+                            <svg class="icon-facebook">
+                                <use href="./images/sprite.svg#facebook"></use>
+                            </svg>
                         </a>
                     </li>
                     <li class="fnetworks-title">
                         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
-                            aria-label="Ссылка на LinkedIn" class="link">
-                            <img src="./images/linkedin.svg" alt="Ссылка LinkedIn" />
+                            aria-label="Ссылка на LinkedIn" class="link fnetworks-icon">
+                            <svg class="icon-linkedin">
+                                <use href="./images/sprite.svg#linkedin"></use>
+                            </svg>
                         </a>
                     </li>
                 </ul>
             </div>
 
             <div class="footer-item1">
-                <b class="examples-title">Подпишитесь на рассылку</b><input type="text" placeholder="e-mail" />
-                <button type="button" class="btn-studio">
-                    Подписаться<img src="./images/icon-send.svg" alt="иконка отправки" />
+                <b class="examples-title footer">Подпишитесь на рассылку</b><br>
+                <input type="text" placeholder="e-mail" />
+                <button type="button" class="btn-studio footer">
+                    Подписаться
+                    <svg class="send">
+                        <use href="./images/sprite.svg#send"></use>
+                    </svg>
                 </button>
-            </div>
             </div>
         </section>
     </footer>
